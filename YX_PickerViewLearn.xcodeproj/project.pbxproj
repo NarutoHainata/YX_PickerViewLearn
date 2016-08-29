@@ -13,6 +13,8 @@
 		2FF9A0EF1D74643800A514E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9A0ED1D74643800A514E9 /* Main.storyboard */; };
 		2FF9A0F11D74643800A514E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9A0F01D74643800A514E9 /* Assets.xcassets */; };
 		2FF9A0F41D74643800A514E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9A0F21D74643800A514E9 /* LaunchScreen.storyboard */; };
+		2FF9A0FD1D74664400A514E9 /* ChooseProView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9A0FC1D74664400A514E9 /* ChooseProView.m */; };
+		2FF9A1031D74687E00A514E9 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9A1021D74687E00A514E9 /* CustomPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2FF9A0F01D74643800A514E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FF9A0F31D74643800A514E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FF9A0F51D74643800A514E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF9A0FB1D74664400A514E9 /* ChooseProView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseProView.h; sourceTree = "<group>"; };
+		2FF9A0FC1D74664400A514E9 /* ChooseProView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseProView.m; sourceTree = "<group>"; };
+		2FF9A1011D74687E00A514E9 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerView.h; sourceTree = "<group>"; };
+		2FF9A1021D74687E00A514E9 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 			children = (
 				2FF9A0E71D74643800A514E9 /* AppDelegate.h */,
 				2FF9A0E81D74643800A514E9 /* AppDelegate.m */,
+				2FF9A0FB1D74664400A514E9 /* ChooseProView.h */,
+				2FF9A0FC1D74664400A514E9 /* ChooseProView.m */,
 				2FF9A0EA1D74643800A514E9 /* ViewController.h */,
 				2FF9A0EB1D74643800A514E9 /* ViewController.m */,
+				2FF9A1011D74687E00A514E9 /* CustomPickerView.h */,
+				2FF9A1021D74687E00A514E9 /* CustomPickerView.m */,
 				2FF9A0ED1D74643800A514E9 /* Main.storyboard */,
 				2FF9A0F01D74643800A514E9 /* Assets.xcassets */,
 				2FF9A0F21D74643800A514E9 /* LaunchScreen.storyboard */,
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF9A1031D74687E00A514E9 /* CustomPickerView.m in Sources */,
 				2FF9A0EC1D74643800A514E9 /* ViewController.m in Sources */,
 				2FF9A0E91D74643800A514E9 /* AppDelegate.m in Sources */,
 				2FF9A0E61D74643800A514E9 /* main.m in Sources */,
+				2FF9A0FD1D74664400A514E9 /* ChooseProView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
